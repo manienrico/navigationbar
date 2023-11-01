@@ -9,8 +9,10 @@ export default function Navbar() {
   return (
     <Fragment>
         <header>
-            <NavLink className="" to={}>ZARA</NavLink>
-            <nav className='nav-container'></nav>
+            <NavLink className="" to="/">ZARA</NavLink>
+            <nav className='nav-container'>
+                <NavLink></NavLink>
+            </nav>
         </header>
         <Outlet />
     </Fragment>

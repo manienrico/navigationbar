@@ -1,0 +1,6 @@
+export { default as About } from './about/about.route'
+export { default as Collections } from './collections/collections.route'
+export { default as Contact } from './contact/contact.route'
+export { default as Home } from './home/home.route'
+export { default as Shop } from './shop/shop.route'
+export { default as Error } from './error/error.route'
